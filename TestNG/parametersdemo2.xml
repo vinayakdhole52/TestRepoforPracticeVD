@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SoftwareTest">
+  <parameter name="SoftwareCompanyName" value="Wipro"></parameter>
+  <classes>
+      <class name="TestNG.TestNG.SoftwareClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="AutomobileTest">
+  <parameter name="AutomobileName" value="maruti"></parameter>
+  <classes>
+      <class name="TestNG.TestNG.AutomobileClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
